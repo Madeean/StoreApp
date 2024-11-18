@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80AE33F52CEB76D500D6B186 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AE33F42CEB76D500D6B186 /* Product.swift */; };
+		80AE33F72CEB793700D6B186 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AE33F62CEB793700D6B186 /* ProductsTableViewController.swift */; };
 		80C89BCC2CE9CF1F000BC8C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C89BCB2CE9CF1F000BC8C1 /* AppDelegate.swift */; };
 		80C89BCE2CE9CF1F000BC8C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C89BCD2CE9CF1F000BC8C1 /* SceneDelegate.swift */; };
 		80C89BD02CE9CF1F000BC8C1 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C89BCF2CE9CF1F000BC8C1 /* CategoriesTableViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80AE33F42CEB76D500D6B186 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		80AE33F62CEB793700D6B186 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		80C89BC82CE9CF1F000BC8C1 /* StoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C89BCB2CE9CF1F000BC8C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C89BCD2CE9CF1F000BC8C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				80C89BCF2CE9CF1F000BC8C1 /* CategoriesTableViewController.swift */,
+				80AE33F62CEB793700D6B186 /* ProductsTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				80C89BE72CE9D183000BC8C1 /* Category.swift */,
+				80AE33F42CEB76D500D6B186 /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				80C89BD02CE9CF1F000BC8C1 /* CategoriesTableViewController.swift in Sources */,
+				80AE33F52CEB76D500D6B186 /* Product.swift in Sources */,
 				80C89BEB2CE9D38D000BC8C1 /* URL+Extensions.swift in Sources */,
 				80C89BCC2CE9CF1F000BC8C1 /* AppDelegate.swift in Sources */,
+				80AE33F72CEB793700D6B186 /* ProductsTableViewController.swift in Sources */,
 				80C89BCE2CE9CF1F000BC8C1 /* SceneDelegate.swift in Sources */,
 				80C89BE62CE9D14F000BC8C1 /* StoreHTTPClient.swift in Sources */,
 				80C89BD62CE9CF1F000BC8C1 /* StoreApp.xcdatamodeld in Sources */,
